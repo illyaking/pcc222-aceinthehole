@@ -3,10 +3,14 @@
 @import 'palette.less';
 @import 'mixins.less';
 
-/* Nav Bar */
-
-nav {
-    clear: both;
+/* Header */
+header {
+    a {
+        color: @lightColor;
+        &:hover {
+            color: @color1;
+        }
+    }
 }
 
 /* Main Section */
@@ -25,7 +29,6 @@ main {
 }
 
 /* Footer */
-
 footer {
     background-color: @darkColor;
     color: @lightColor;

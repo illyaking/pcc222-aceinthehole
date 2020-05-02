@@ -2,9 +2,12 @@
 /* MOBILE STYLESHEET */
 /* Parametric mixin for headings */
 /* End parametric mixin for headings */
-/* Nav Bar */
-nav {
-  clear: both;
+/* Header */
+header a {
+  color: #ffffff;
+}
+header a:hover {
+  color: #ff0000;
 }
 /* Main Section */
 main {
