@@ -3,11 +3,14 @@
 /* Parametric mixin for headings */
 /* End parametric mixin for headings */
 /* Header */
-header a {
+nav a {
   color: #ffffff;
 }
-header a:hover {
+nav a:hover {
   color: #ff0000;
+}
+nav .bg-dark {
+  background-color: #000000;
 }
 /* Main Section */
 main {
@@ -28,4 +31,10 @@ footer {
 }
 footer h1 {
   color: #ff0000;
+}
+footer .copyright {
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 0 !important;
 }

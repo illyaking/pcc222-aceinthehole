@@ -4,12 +4,18 @@
 @import 'mixins.less';
 
 /* Header */
-header {
+
+nav {
     a {
         color: @lightColor;
+
         &:hover {
             color: @color1;
         }
+    }
+
+    .bg-dark {
+        background-color: @darkColor;
     }
 }
 
@@ -35,5 +41,12 @@ footer {
 
     h1 {
         color: @color1;
+    }
+
+    .copyright {
+        font-size: 12px;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 0 !important;
     }
 }
