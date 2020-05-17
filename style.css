@@ -1,0 +1,8 @@
+.fixed-top {
+background-color: #000000 !important;
+}
+
+.py-5, .temp {
+    padding-top: 6rem!important;
+    min-height: 600px;
+}

@@ -3,14 +3,14 @@
 /* Parametric mixin for headings */
 /* End parametric mixin for headings */
 /* Header */
+nav {
+  background-color: #000000;
+}
 nav a {
   color: #ffffff;
 }
 nav a:hover {
   color: #ff0000;
-}
-nav .bg-dark {
-  background-color: #000000;
 }
 /* Main Section */
 main {
@@ -28,6 +28,7 @@ main .two {
 footer {
   background-color: #000000;
   color: #ffffff;
+  height: 400px;
 }
 footer h1 {
   color: #ff0000;

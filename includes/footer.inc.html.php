@@ -17,7 +17,7 @@
         </div><!-- /.row -->
     </div><!-- /.container-fluid -->
     <div class="container-fluid copyright">
-        <p class="copyright">Demo Wireframe Mobile First Website by Illya King @<?php echo date('Y'); ?></p>
+        <p class="mb-1">Demo Wireframe Mobile First Website by Illya King @<?php echo date('Y'); ?></p>
     </div><!-- /.container-fluid -->
 </footer><!-- /footer -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
