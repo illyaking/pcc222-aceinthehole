@@ -7,7 +7,10 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.6">
     <title>Registration - Ace in the Hole</title>
+    <link href="../css/grid.css" rel="stylesheet" type="text/css">
+    <link href="../css/helper.css" rel="stylesheet" type="text/css">
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/reset.css" rel="stylesheet" type="text/css">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
     <link href="../style.css" rel="stylesheet" type="text/css">
 </head>
@@ -15,8 +18,10 @@
 <body class="bg-light" cz-shortcut-listen="true">
     <?php include '../includes/header.inc.html.php'; ?>
     <main role="main" class="container-fluid">
-        <div class="container-fluid">
-            <div class="py-5 text-center">
+        <div class="jumbo01 container-fluid">
+        </div>
+        <div class="container-fluid py-5">
+            <div class="text-center">
                 <h2>Contact</h2>
                 <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
             </div>

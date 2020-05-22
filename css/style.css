@@ -2,33 +2,104 @@
 /* MOBILE STYLESHEET */
 /* Parametric mixin for headings */
 /* End parametric mixin for headings */
+h1 {
+  font-size: 2.5em;
+  line-height: 3em;
+  font-family: 'Open Sans', sans-serif;
+}
+h2 {
+  font-size: 2em;
+  line-height: 2.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+h3 {
+  font-size: 1.5em;
+  line-height: 2em;
+  font-family: 'Open Sans', sans-serif;
+}
+h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+h5 {
+  font-size: 0.5em;
+  line-height: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+h6 {
+  font-size: 0em;
+  line-height: 0.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+.generalFont {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+body {
+  overflow-x: hidden;
+}
 /* Header */
+button,
+input,
+label,
+select,
+p,
+a,
+li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+strong {
+  font-weight: bold;
+  line-height: 2em;
+}
 nav {
   background-color: #000000;
 }
+nav .navbar-brand,
 nav a {
   color: #ffffff;
+  font-size: 1.5em;
 }
+nav .navbar-brand:hover,
 nav a:hover {
   color: #ff0000;
+}
+nav .navbar-toggler-icon {
+  color: #ffffff;
 }
 /* Main Section */
 main {
   background-color: #ffffff;
 }
-main .sections {
-  height: 300px;
-  margin-top: 3rem;
+main .jumbotron {
+  color: #ffffff;
+  border-radius: 0;
+  text-align: center;
+}
+main .jumbotron .leader {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 main .two {
   background-color: #ff0000;
   color: #ffffff;
 }
+main .two h2 {
+  line-height: 2.5em;
+}
 /* Footer */
 footer {
   background-color: #000000;
   color: #ffffff;
-  height: 400px;
+  min-height: 300px;
 }
 footer h1 {
   color: #ff0000;
@@ -38,4 +109,8 @@ footer .copyright {
   font-style: italic;
   text-align: center;
   margin-bottom: 0 !important;
+}
+.container,
+.container-fluid {
+  padding: 20px 10px;
 }

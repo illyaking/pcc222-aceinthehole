@@ -3,8 +3,9 @@
         <div class="row">
 
             <div class="col-lg-4">
-                <h1>Bootstrap starter template</h1>
-                <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+                <h1>Who we are</h1>
+                <p class="lead">Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds. We offer Events for Every Body.</p>
+
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <h1>Bootstrap starter template</h1>

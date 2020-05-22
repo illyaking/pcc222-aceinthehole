@@ -10,3 +10,21 @@
 
 /* End parametric mixin for headings */
 
+.headers-generator(@n; @i : 1) when (@i =< @n)
+{
+  h@{i} {
+    font-size: (2.5em - (@i - 1) * 0.5); 
+      line-height: (3em - (@i - 1) * 0.5);
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  .headers-generator(@n; (@i + 1));
+}
+
+.headers-generator(6);
+
+.generalFont {
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
