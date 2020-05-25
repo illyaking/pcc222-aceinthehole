@@ -15,6 +15,8 @@
 <body class="bg-light" cz-shortcut-listen="true">
     <?php include '../includes/header.inc.html.php'; ?>
     <main role="main" class="container-fluid">
+        <div class="jumbo01 container-fluid">
+        </div>
         <div class="container-fluid temp">
             <h1>Thank you!</h1>
             <p>Our records show you submitted the following:<br>

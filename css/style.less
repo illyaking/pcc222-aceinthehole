@@ -3,17 +3,40 @@
 @import 'palette.less';
 @import 'mixins.less';
 
+body {
+    overflow-x: hidden;
+}
+
 /* Header */
+
+button,
+input,
+label,
+select,
+p,
+a,
+li {
+    .generalFont;
+}
+
+strong {
+    font-weight: bold;
+    line-height: 2em;
+}
 
 nav {
     background-color: @darkColor;
 
-    a {
+     .navbar-brand, a {
         color: @lightColor;
+        font-size: 1.5em;
 
         &:hover {
             color: @color1;
         }
+    }
+    .navbar-toggler-icon {
+        color: @lightColor;
     }
 }
 
@@ -21,14 +44,28 @@ nav {
 main {
     background-color: @lightColor;
 
-    .sections {
-        height: 300px;
-        margin-top: 3rem;
+    .jumbotron {
+        color: @lightColor;
+        border-radius: 0;
+        text-align: center;
+
+        .leader {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            width: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+        }
     }
 
     .two {
         background-color: @color1;
         color: @lightColor;
+
+        h2 {
+            line-height: 2.5em;
+        }
     }
 }
 
@@ -36,7 +73,7 @@ main {
 footer {
     background-color: @darkColor;
     color: @lightColor;
-    height: 400px;
+    min-height: 300px;
 
     h1 {
         color: @color1;
@@ -48,4 +85,9 @@ footer {
         text-align: center;
         margin-bottom: 0 !important;
     }
+}
+
+.container,
+.container-fluid {
+    padding: 20px 10px;
 }
