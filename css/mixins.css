@@ -3,36 +3,25 @@
 /* End parametric mixin for headings */
 h1 {
   font-size: 2.5em;
-  line-height: 3em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 h2 {
   font-size: 2em;
-  line-height: 2.5em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 h3 {
   font-size: 1.5em;
-  line-height: 2em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 h4 {
   font-size: 1em;
-  line-height: 1.5em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 h5 {
   font-size: 0.5em;
-  line-height: 1em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 h6 {
   font-size: 0em;
-  line-height: 0.5em;
-  font-family: 'Open Sans', sans-serif;
-}
-.generalFont {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-family: 'Open Sans', Arial, sans-serif;
 }

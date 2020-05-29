@@ -14,11 +14,11 @@
 
 <body class="bg-light" cz-shortcut-listen="true">
     <?php include '../includes/header.inc.html.php'; ?>
-    <main role="main" class="container-fluid">
+    <main role="main">
         <div class="jumbo01 container-fluid">
+            <h2>Thank you!</h2>
         </div>
-        <div class="container-fluid temp">
-            <h1>Thank you!</h1>
+        <div class="container temp">
             <p>Our records show you submitted the following:<br>
                 <strong>Name</strong> <?php echo htmlspecialchars($myname, ENT_QUOTES); ?><br>
                 <strong>Email:</strong> <?php echo htmlspecialchars($myemail, ENT_QUOTES); ?><br>

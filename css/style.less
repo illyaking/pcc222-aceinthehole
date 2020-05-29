@@ -3,10 +3,6 @@
 @import 'palette.less';
 @import 'mixins.less';
 
-body {
-    overflow-x: hidden;
-}
-
 /* Header */
 
 button,
@@ -16,7 +12,9 @@ select,
 p,
 a,
 li {
-    .generalFont;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1.25em;
+    line-height: 1.5em;
 }
 
 strong {
@@ -27,14 +25,16 @@ strong {
 nav {
     background-color: @darkColor;
 
-     .navbar-brand, a {
+    .navbar-brand,
+    a {
         color: @lightColor;
-        font-size: 1.5em;
+        font-size: 1.25em;
 
         &:hover {
             color: @color1;
         }
     }
+
     .navbar-toggler-icon {
         color: @lightColor;
     }
@@ -43,11 +43,18 @@ nav {
 /* Main Section */
 main {
     background-color: @lightColor;
+    overflow-x: hidden;
 
     .jumbotron {
         color: @lightColor;
         border-radius: 0;
         text-align: center;
+        margin-bottom: 0;
+
+        h1 {
+            font-weight: 700;
+            font-size: 3rem;
+        }
 
         .leader {
             position: relative;
@@ -59,12 +66,23 @@ main {
         }
     }
 
+    .jumbo01 h2 {
+        margin-top: 200px;
+        text-align: center;
+        font-size: 4em;
+    }
+
     .two {
         background-color: @color1;
         color: @lightColor;
 
         h2 {
             line-height: 2.5em;
+
+        }
+
+        p {
+            margin-bottom: 20px;
         }
     }
 }
@@ -73,10 +91,19 @@ main {
 footer {
     background-color: @darkColor;
     color: @lightColor;
-    min-height: 300px;
+    overflow-x: hidden;
 
     h1 {
         color: @color1;
+    }
+
+    .widget {
+        margin-bottom: 5px;
+        text-align: center;
+
+        .facebook {
+            margin: 0 auto;
+        }
     }
 
     .copyright {

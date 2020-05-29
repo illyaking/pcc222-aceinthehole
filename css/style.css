@@ -4,41 +4,27 @@
 /* End parametric mixin for headings */
 h1 {
   font-size: 2.5em;
-  line-height: 3em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 h2 {
   font-size: 2em;
-  line-height: 2.5em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 h3 {
   font-size: 1.5em;
-  line-height: 2em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 h4 {
   font-size: 1em;
-  line-height: 1.5em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 h5 {
   font-size: 0.5em;
-  line-height: 1em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 h6 {
   font-size: 0em;
-  line-height: 0.5em;
-  font-family: 'Open Sans', sans-serif;
-}
-.generalFont {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-body {
-  overflow-x: hidden;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 /* Header */
 button,
@@ -48,9 +34,9 @@ select,
 p,
 a,
 li {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1.25em;
+  line-height: 1.5em;
 }
 strong {
   font-weight: bold;
@@ -62,7 +48,7 @@ nav {
 nav .navbar-brand,
 nav a {
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 nav .navbar-brand:hover,
 nav a:hover {
@@ -74,11 +60,17 @@ nav .navbar-toggler-icon {
 /* Main Section */
 main {
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 main .jumbotron {
   color: #ffffff;
   border-radius: 0;
   text-align: center;
+  margin-bottom: 0;
+}
+main .jumbotron h1 {
+  font-weight: 700;
+  font-size: 3rem;
 }
 main .jumbotron .leader {
   position: relative;
@@ -88,6 +80,11 @@ main .jumbotron .leader {
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
+main .jumbo01 h2 {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 4em;
+}
 main .two {
   background-color: #ff0000;
   color: #ffffff;
@@ -95,14 +92,24 @@ main .two {
 main .two h2 {
   line-height: 2.5em;
 }
+main .two p {
+  margin-bottom: 20px;
+}
 /* Footer */
 footer {
   background-color: #000000;
   color: #ffffff;
-  min-height: 300px;
+  overflow-x: hidden;
 }
 footer h1 {
   color: #ff0000;
+}
+footer .widget {
+  margin-bottom: 5px;
+  text-align: center;
+}
+footer .widget .facebook {
+  margin: 0 auto;
 }
 footer .copyright {
   font-size: 12px;

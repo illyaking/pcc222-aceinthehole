@@ -17,14 +17,11 @@
 
 <body class="bg-light" cz-shortcut-listen="true">
     <?php include '../includes/header.inc.html.php'; ?>
-    <main role="main" class="container-fluid">
+    <main role="main">
         <div class="jumbo01 container-fluid">
+            <h2>Contact</h2>
         </div>
-        <div class="container-fluid py-5">
-            <div class="text-center">
-                <h2>Contact</h2>
-                <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
-            </div>
+        <div class="container py-5">
             <div class="row">
                 <div class="col-md-12 order-md-1">
                     <form method="post" action=" ">
