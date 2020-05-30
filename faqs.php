@@ -13,7 +13,6 @@
     <link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <script src="js/command.js"></script>
 </head>
 
 <body data-gr-c-s-loaded="true" cz-shortcut-listen="true" style="">

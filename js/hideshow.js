@@ -20,12 +20,12 @@ Programmer: Illya King
 
 // Enter your jQuery code below this line (put a blank line in first).
 
-$(document).ready(function() {
+$(document).ready(function () {
     //alert("The jQuery Code is working correctly")
     
     $("dd").hide();
     
-    $("dt").on("click", function() {
+    $("dt").on("click", function () {
         $(this).toggleClass("open");
         $(this).next("dd").slideToggle();
         //$(this).next("dd").slideToggle();

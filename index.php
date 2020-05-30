@@ -15,7 +15,6 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="gallery/flexbin.css" type="text/css" rel="stylesheet" media="all" />
-    <script src="js/command.js"></script>
 </head>
 
 <body>
