@@ -7,7 +7,11 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.6">
     <title>Registration - Ace in the Hole</title>
+    <link href="../css/reset.css" rel="stylesheet" type="text/css">
+    <link href="../css/grid.css" rel="stylesheet" type="text/css">
+    <link href="../css/helper.css" rel="stylesheet" type="text/css">
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../fontawesome/css/all.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
     <link href="../style.css" rel="stylesheet" type="text/css">
 </head>
@@ -33,6 +37,8 @@
         </p>
         </div><!--/.container-fluid -->
     </main><!-- /main -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="../bootstrap/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
     <?php include '../includes/footer.inc.html.php'; ?>
 </body>
 

@@ -22,8 +22,8 @@
 
     <main role="main">
         <div class="jumbotron container-fluid">
-            <h1 class="leader">Ace in the Hole Multisport Weekend</h1>
-            <h1 class="leader">June 20th-21st 2020</h1>
+            <h1>Ace in the Hole Multisport Weekend<br>
+            June 20th-21st 2020</h1>
         </div>
         <div class="container-fluid two">
             <div class="container">
