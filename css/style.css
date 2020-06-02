@@ -63,7 +63,15 @@ main {
   overflow-x: hidden;
 }
 main .jumbotron {
+  background: linear-gradient(#000000 5%, transparent), url('../img/quino-al-4DZikSB1tCk-unsplash.jpg') center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   color: #ffffff;
+  display: inline-block;
+  padding: 0px 100px;
+  height: 100%;
+  width: 100%;
   border-radius: 0;
   margin-bottom: 0;
   text-align: center;
@@ -74,6 +82,17 @@ main .jumbotron h1 {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+}
+main .jumbo01 {
+  background: linear-gradient(#000000 5%, transparent), url('../img/quino-al-4DZikSB1tCk-unsplash.jpg') center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  display: inline-block;
+  padding: 0px 100px;
+  height: 400px;
+  width: 100%;
 }
 main .jumbo01 h2 {
   height: 15em;
@@ -116,4 +135,53 @@ footer .copyright {
 .container,
 .container-fluid {
   padding: 20px 10px;
+}
+/* definition list */
+dt,
+dd {
+  font-family: 'Open-Sans', Arial, sans-serif;
+  margin: 2px 0;
+  margin-bottom: 10px;
+}
+dt {
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+dt:hover {
+  color: #ff0000;
+}
+dd {
+  font-size: 1.2em;
+  margin-left: 35px;
+}
+dd ul {
+  list-style: disc;
+}
+dd li {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+/* arrow icon left */
+dt:before {
+  border: 0.5em solid;
+  border-color: transparent transparent transparent #000000;
+  content: '';
+  display: inline-block;
+  height: 0;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  width: 0;
+}
+dt:before:hover:before {
+  border-left-color: #ff0000;
+}
+/* arrow icon down */
+dt.open:before {
+  border-color: #ff0000 transparent transparent transparent;
+  border-bottom-width: 0;
+}
+dt.open:before:hover:before {
+  border-left-color: transparent;
+  border-top-color: #ff0000;
 }

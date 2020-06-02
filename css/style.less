@@ -1,10 +1,8 @@
 /* MOBILE STYLESHEET */
-
 @import 'palette.less';
 @import 'mixins.less';
 
 /* Header */
-
 button,
 input,
 label,
@@ -46,7 +44,15 @@ main {
     overflow-x: hidden;
 
     .jumbotron {
+        background: linear-gradient(@darkColor 5%, transparent), url('../img/quino-al-4DZikSB1tCk-unsplash.jpg') center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
         color: @lightColor;
+        display: inline-block;
+        padding: 0px 100px;
+        height: 100%;
+        width: 100%;
         border-radius: 0;
         margin-bottom: 0;
         text-align: center;
@@ -61,11 +67,23 @@ main {
 
     }
 
-    .jumbo01 h2 {
-        height: 15em;
-  display: flex;
-  align-items: center;
-  justify-content: center
+    .jumbo01 {
+        background: linear-gradient(@darkColor 5%, transparent), url('../img/quino-al-4DZikSB1tCk-unsplash.jpg') center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #ffffff;
+        display: inline-block;
+        padding: 0px 100px;
+        height: 400px;
+        width: 100%;
+
+        h2 {
+            height: 15em;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
     }
 
     .two {
@@ -113,4 +131,66 @@ footer {
 .container,
 .container-fluid {
     padding: 20px 10px;
+}
+
+/* definition list */
+dt,
+dd {
+    font-family: 'Open-Sans', Arial, sans-serif;
+    margin: 2px 0;
+    margin-bottom: 10px;
+}
+
+dt {
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: 700;
+
+    &:hover {
+        color: @color1;
+    }
+}
+
+dd {
+    font-size: 1.2em;
+    margin-left: 35px;
+
+    ul {
+        list-style: disc;
+    }
+
+    li {
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+/* arrow icon left */
+dt:before {
+    border: 0.5em solid;
+    border-color: transparent transparent transparent @darkColor;
+    content: '';
+    display: inline-block;
+    height: 0;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    width: 0;
+
+    &:hover:before {
+        border-left-color: @color1;
+
+    }
+
+}
+
+/* arrow icon down */
+dt.open:before {
+    border-color: @color1 transparent transparent transparent;
+    border-bottom-width: 0;
+
+    &:hover:before {
+        border-left-color: transparent;
+        border-top-color: @color1;
+    }
+
 }
