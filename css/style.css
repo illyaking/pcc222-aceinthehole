@@ -78,6 +78,7 @@ main .jumbotron {
 }
 main .jumbotron h1 {
   position: absolute;
+  width: 50%;
   top: 50%;
   left: 50%;
   margin-right: -50%;
@@ -104,11 +105,17 @@ main .two {
   background-color: #ff0000;
   color: #ffffff;
 }
+main .two p {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+main .two li {
+  font-size: 1.15em;
+  line-height: 1.25em;
+}
 main .two h2 {
   line-height: 2.5em;
-}
-main .two p {
-  margin-bottom: 20px;
 }
 /* Footer */
 footer {

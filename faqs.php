@@ -7,13 +7,12 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.6">
     <title>FAQ's :: Ace in the Hole</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="css/grid.css" rel="stylesheet" type="text/css">
     <link href="css/helper.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body data-gr-c-s-loaded="true" cz-shortcut-listen="true" style="">
@@ -21,7 +20,7 @@
 
     <main role="main">
         <div class="jumbo01 container-fluid">
-            <h2>Fequently Asked Questions</h2>
+            <h2>Frequently Asked Questions</h2>
         </div>
         <div class="container-fluid two">
             <div class="container">

@@ -13,12 +13,12 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="../fontawesome/css/all.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
-    <link href="../style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body class="bg-light" cz-shortcut-listen="true">
     <?php include '../includes/header.inc.html.php'; ?>
-    <main role="main" class="container-fluid temp">
+    <main role="main">
         <div class="jumbo01 container-fluid">
             <h2>Thank you!</h2>
         </div>

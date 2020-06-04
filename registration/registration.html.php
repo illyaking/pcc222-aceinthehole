@@ -13,7 +13,7 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="../fontawesome/css/all.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
-    <link href="../style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body class="bg-light" cz-shortcut-listen="true">
@@ -107,6 +107,7 @@
                 </div>
                 <!--/.col-md-9-->
                 <div class="col-md-3 two">
+                    <h2>Race Prices</h2>
                     <ul>
                         <li><strong>Long Course</strong> $240</li>
                         <li><strong>Olympic</strong> $110</li>
@@ -116,7 +117,7 @@
                         <li><strong>Try-a-Tri</strong> $65</li>
                     </ul>
 
-                    <h3>Cost Includes</h3>
+                    <h2>Cost Includes</h2>
                     <ul>
                         <li>Food & Beer</li>
                         <li>Access to the weekend's live entertainment & Fitness Expo</li>
@@ -126,7 +127,7 @@
                         <li>Post-event party & entertainment</li>
                     </ul>
 
-                    <p><strong>NOTE:</strong> Tech shirts guaranteed to pre-registered participants only.</p>
+                    <h4><strong>NOTE:</strong> Tech shirts guaranteed to pre-registered participants only.</h4>
 
                 </div>
                 <!--/.col-md-5-->

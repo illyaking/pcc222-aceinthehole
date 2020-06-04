@@ -6,14 +6,14 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.6">
-    <title>Contact - Ace in the Hole</title>
+    <title>Contact :: Ace in the Hole</title>
     <link href="../css/reset.css" rel="stylesheet" type="text/css">
     <link href="../css/grid.css" rel="stylesheet" type="text/css">
     <link href="../css/helper.css" rel="stylesheet" type="text/css">
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="../fontawesome/css/all.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
-    <link href="../style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body class="bg-light" cz-shortcut-listen="true">
