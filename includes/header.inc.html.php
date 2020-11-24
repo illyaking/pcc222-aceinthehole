@@ -1,4 +1,4 @@
-<?php define('BASE_URL', '/cas222/template/'); ?>
+<?php define('BASE_URL'); ?>
 <link href="fontawesome/css/all.css" rel="stylesheet">
 <header>
     <nav class="navbar navbar-expand-lg fixed-top">
